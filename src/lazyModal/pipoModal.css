@@ -1,0 +1,127 @@
+.origin-wrap {
+    align-items: center;
+    /*margin-top: 10%;*/
+    text-align: center;
+}
+
+.difficulty-wrap {
+    width: 100%;
+    text-align: center;
+}
+.difficulty-wrap p {
+    font-family: "Sister", serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.difficulty-wrap label {
+    font-family: "Sister", serif;
+    font-size: 1.4em;
+    margin-right: 20px;
+}
+.difficulty-wrap input {
+    margin-right: 10px;
+}
+
+#origin {
+    width: 100%;
+    /*margin: auto;*/
+    align-items: center;
+}
+
+.origin-img {
+    width: 50%;
+}
+
+.preview-submit {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.preview-submit p {
+    font-family: "Sister", serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.answer-icon-wrap {
+    /*width: 40%;*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+
+.preview-button {
+    background-color: white;
+    width: 150px;
+    height: 100%;
+    border: 0;
+    cursor: pointer;
+}
+
+.preview-button img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.close-btn {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+#loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#loading p {
+    margin-top: 70px;
+    font-family: "Sister", serif;
+    font-size: 1.2em;
+}
+
+#result-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#processed,
+#preview {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+#processed-img,
+#preview-img {
+    width: 40%;
+}
+
+#processed p,
+#preview p {
+    font-family: "Sister", serif;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+/*.modal {*/
+/*    max-width: 1080px;*/
+/*    border: 1px solid #333;*/
+/*    background-color: white;*/
+/*    margin: 30px auto auto;*/
+/*    padding: 20px;*/
+/*    overflow-y: auto;*/
+/*}*/
+/*.ReactModal__Content ReactModal__Content--after-open {*/
+/*    max-width: 100px;*/
+/*}*/

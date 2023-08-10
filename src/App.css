@@ -2,37 +2,89 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  max-width: 1080px;
+  margin: 100px auto auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dropzone {
+  width: 90%;
+  margin: 30px auto;
+  padding: 30px;
+  border: 2px dashed #d5647c;
+  border-radius: 9px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: "Sister";
+  src: url('./fonts/THE_Yamjeonhaejineonni.ttf');
+}
+
+.input-p {
+  font-family: "Sister", serif;
+}
+
+/*#preview {*/
+/*  width: 100%;*/
+/*  margin: auto;*/
+/*  display: flex;*/
+/*  justify-content: space-evenly;*/
+/*  align-items: center;*/
+/*}*/
+/*.preview-img {*/
+/*  width: 50%;*/
+/*}*/
+/*.preview-submit {*/
+/*  width: 20%;*/
+/*  cursor: pointer;*/
+/*}*/
+/*.preview-submit p {*/
+/*  font-family: "Sister", serif;*/
+/*  font-size: 2em;*/
+/*  text-align: center;*/
+/*}*/
+/*.preview-button {*/
+/*  background-color: white;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  border: 0;*/
+/*}*/
+/*.preview-img {*/
+/*  width: 100%;*/
+/*  object-fit: cover;*/
+/*}*/
+
+/*.answer-icon-wrap {*/
+/*  width: 100%;*/
+/*  display: flex;*/
+/*  justify-content: space-evenly;*/
+/*}*/
+/*.answer-icon-wrap img {*/
+/*  width: 80%;*/
+/*  cursor: pointer;*/
+/*}*/
+.answer-icon-wrap img:hover {
+  width: 100%;
+}
+
+#result {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.processed,
+.preview {
+  width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.processed-img,
+.preview-img {
+  width: 100%;
+  object-fit: cover;
+  margin: auto;
 }
